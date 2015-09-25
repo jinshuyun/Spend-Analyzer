@@ -1,0 +1,11 @@
+<Context path="/analyzer" docBase="C:\Users\shuyun\Documents\workspace-sts-3.4.0.RELEASE\analyzer\web">
+	<Resource name="jdbc/spend" auth="Container"
+		maxActive="100" maxIdle="30" maxWait="10000"
+		username="root" password="password"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/spend?autoReconnect=true"
+		logAbandoned="true" removeAbandoned="true"
+		removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+	<Parameter name="javax.servlet.context.tempdir" value="C:\Users\shuyun\Documents\workspace-sts-3.4.0.RELEASE\analyzer\web\WEB-INF\upload\"
+         override="false"/>
+</Context>
